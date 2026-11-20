@@ -43,74 +43,65 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
         rel="stylesheet">
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="urumuri-logo.png">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 
 <body>
 
-    <!-- PROFESSIONAL HEADER -->
+    
+<!-- PROFESSIONAL HEADER -->
 
-    <header class="header" id="mainHeader">
+<header class="header" id="mainHeader">
 
-        <div class="container nav-container">
+    <div class="container nav-container">
 
-            <!-- BRAND LOGO -->
+        <!-- URUMURI BRAND LOGO -->
 
-            <a href="#home" class="logo">
+        <a href="#home" class="logo">
+            <img src="urumuri-logo.png.png"
+                 alt="URUMURI Tours and Travel Logo"
+                 class="brand-logo">
+        </a>
 
-                <span class="logo-main">
-                    URUMURI<span class="logo-dot">.</span>
-                </span>
+        <!-- MOBILE MENU BUTTON -->
 
-                <span class="logo-subtitle">
-                    TOURS & TRAVEL
-                </span>
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+            aria-controls="navigation">
 
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+        <!-- NAVIGATION -->
+
+        <nav class="navigation" id="navigation">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About Us</a>
+            <a href="#destinations" class="nav-link">Destinations</a>
+            <a href="#tours" class="nav-link">Our Tours</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+            <a href="#booking" class="nav-button">
+                Book Your Trip <span>→</span>
             </a>
 
+        </nav>
 
-            <!-- MOBILE MENU BUTTON -->
+    </div>
 
-            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"
-                aria-controls="navigation">
-
-                <span></span>
-                <span></span>
-                <span></span>
-
-            </button>
-
-
-            <!-- NAVIGATION -->
-
-            <nav class="navigation" id="navigation">
-
-                <a href="#home" class="nav-link active">Home</a>
-
-                <a href="#about" class="nav-link">About Us</a>
-
-                <a href="#destinations" class="nav-link">Destinations</a>
-
-                <a href="#tours" class="nav-link">Our Tours</a>
-
-                <a href="#gallery" class="nav-link">Gallery</a>
-
-                <a href="#contact" class="nav-link">Contact</a>
-
-                <a href="#booking" class="nav-button">
-                    Book Your Trip <span>→</span>
-                </a>
-
-            </nav>
-
-        </div>
-
-    </header>
-
-
+</header>
 
 
     <!-- PREMIUM HERO SECTION -->
